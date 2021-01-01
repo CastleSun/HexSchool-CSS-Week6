@@ -93,6 +93,10 @@ li {
   overflow: hidden;
 }
 
+.header .rwd-shopping-cart {
+  display: none;
+}
+
 .footer .footer-banner {
   height: 600px;
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg");
