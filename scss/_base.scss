@@ -1,0 +1,132 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p, h1, h2, h3 {
+    margin: 0;
+}
+ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.nav-link {
+    display: flex;
+    align-items: end;
+}
+.material-icons {
+    height: 20px;
+    width: 20px;
+}
+.grey-bg {
+    background-color: #E0E0E0;
+}
+.brown-bg {
+    background-color: #916000;
+}
+.flex-row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-aic {
+    align-items: center;
+}
+.brown-link {
+    color: #AC8A46;
+}
+.btn-brown {
+    background-color: #916000;
+    color: white
+}
+.btn-outline-brown {
+    border: 1px solid #917000;
+    background-color: white;
+    color: #917000;
+}
+
+.header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png");
+        width: 128px; 
+        height: 38px;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.footer {
+    .footer-banner {
+        height: 600px;
+        background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .subscribe {
+            padding-top: 312px;
+            width: 350px;
+            .banner-title {
+                font-size: $fsz-xl;
+                line-height: 48px;
+                color: #8D8D8D;
+                margin-bottom: 20px;
+            }
+            .input-group {
+                .form-control {
+                    border: 2px solid #916000;
+                }
+                button {
+                    background-color: #916000;
+                    border-color: #916000;
+                }
+            }
+        }
+    }
+
+    .footer-menu {
+        height: 80px;
+        color: white;
+        .rights {
+            font-size: 14px;
+            margin-left: 20px;
+        }
+        .menu-list {
+            font-size: $fsz-m;
+            .menu-item {
+                margin-left: 36px;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .header {
+        .rwd-shopping-cart {
+            display: inline;
+            color: #8D8D8D;
+        }
+        .shopping-cart {
+            display: none;
+        }
+    }
+    .footer {
+        .subscribe {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer-menu {
+            justify-content: center;
+            .menu-list {
+                display: none;
+            }
+        }
+    }
+}

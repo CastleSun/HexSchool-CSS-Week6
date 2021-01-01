@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex School Css Week 6</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <link href="scss/all.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fuild login-page">
+        <div class="container-xl header">
+            <a href="/index.html"><h1 class="logo">d’Perfume</h1></a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <!--li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li-->
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="/product.html">
+                                    <span class="material-icons me-1">store</span>Product
+                                </a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="#">
+                                    <span class="material-icons me-1">person</span>log in
+                                </a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="#">
+                                    <span class="material-icons me-1">favorite</span>Wishlist
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span class="material-icons me-1">shopping_cart</span>Cart (3)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="brand-wrapper">
+            <div class="container-xl">
+                <ul class="brand-list">
+                    <li class="brand-item"><a href="#">CHANEL</a></li>
+                    <li class="brand-item"><a href="#">Jo Malone</a></li>
+                    <li class="brand-item"><a href="#">Curology</a></li>
+                    <li class="brand-item"><a href="#">Dior</a></li>
+                    <li class="brand-item"><a href="#">Chloe</a></li>
+                    <li class="brand-item"><a href="#">ZARA</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-xl">
+            <div class="row login-section">
+                <div class="col-12 col-sm-7 login-pic">
+                    <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/login1.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-5 login-form">
+                    <h2 class="title">Log in</h2>
+                    <label for="account" class="form-label">帳號</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="email@example.com" id="account" aria-label="account">
+                    </div>
+                    <label for="password" class="form-label">密碼</label>
+                    <div class="input-group mb-4">
+                        <input type="text" class="form-control" placeholder="Password" id="password" aria-label="password">
+                    </div>
+                    <div class="action-buttons">
+                        <p class="brown-link"><a href="#">忘記密碼</a></p>
+                        <div>
+                            <button class="btn btn-outline-brown">註冊</button>
+                            <button class="btn btn-brown">登入</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-banner">
+                <div class="container-xl">
+                    <div class="subscribe">
+                        <p class="banner-title">記得<br>訂閱以獲取更多資訊！</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="button-addon">
+                            <button class="btn btn-secondary" type="button" id="button-addon">Subscribe</button>
+                          </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="brown-bg">
+                <div class="container-xl footer-menu flex-row-space-between flex-aic">
+                    
+                    <div class="flex-row-space-between flex-aic">
+                        <img src="https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfumewhite.png" alt="" class="logo">
+                        <p class="rights">© 2020. All Rights Reserved.</p>
+                    </div>
+                    <ul class="menu-list flex-row-space-between flex-aic">
+                        <li class="menu-item"><a href="#">Product</a></li>
+                        <li class="menu-item"><a href="#">Blog</a></li>
+                        <li class="menu-item"><a href="#">Contact</a></li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+.banner {
+    height: 870px;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    
+    align-items: center;
+    .wrapper {
+        display: flex;
+        justify-content: flex-end;
+        .banner-content {
+            width: 445px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            color: white;
+
+            .banner-title {
+                line-height: 60px;
+                font-size: 40px;
+            }
+            .banner-desc {
+                line-height: 36px;
+                font-size: 24px;
+                margin-bottom: 16px;
+            }
+            button {
+                color: white;
+                border-color: white;
+                width: 360px;
+                border-radius: 30px;
+            }
+            button:hover {
+                color: rgba(0, 0, 0, 0.5);;
+                border-color: white;
+    
+                background-color: white;
+            }
+        }
+        
+    }
+}
+
+.series-wall {
+    padding: 60px 0;
+    .series-item {
+        display: flex;
+        height: 555px;
+        
+        .item-desc {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 110px;
+            padding-right: 110px;
+
+            .desc-title {
+                font-size: $fsz-xl;
+                line-height: 48px;
+            }
+            .desc-content {
+                font-size: $fsz-m;
+                line-height: 30px;
+                margin-bottom: 16px;
+            }
+            .highlight-desc-title {
+                font-size: $fsz-l;
+                line-height: 36px;
+                margin-bottom: 4px;
+            }
+            .highlight-desc-content {
+                font-size: $fsz-s;
+                line-height: 24px;
+                margin-bottom: 52px;
+            }
+            button {
+                border-radius: 20px;
+            }
+        }
+    }
+    .reverse {
+        flex-direction: row-reverse;
+    }
+    .highlight {
+        height: 1080px;
+    }
+}
+
+.product-list {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    .product-item {
+        img {
+            width: 350px;
+            height: 540px;
+            margin-bottom: 8px;
+        }
+        .item-title {
+            font-size: $fsz-l;
+            line-height: 36px;
+        }
+        .item-content {
+            font-size: $fsz-s;
+            margin-bottom: 16px;
+        }
+        .item-price {
+            font-size: $fsz-s;
+            .canceled-price {
+                text-decoration: line-through;
+                color: #8D8D8D;
+                margin-left: 8px;
+            }
+        }
+    }
+}
+
+.bottle-recycle {
+    padding: 60px 0;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .recycle-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .content-title {
+            font-size: $fsz-xl;
+            line-height: 48px;
+        }
+        .content-desc {
+            font-size: $fsz-m;
+            margin-bottom: 16px;
+        }
+        .content-sub-desc {
+            font-size: $fsz-s;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .series-wall {
+        padding: 40px 15px;
+        flex-direction: column;
+        
+        .series-item {
+            height: auto;
+            flex-direction: column-reverse !important;
+            .item-pic {
+                height: 350px;
+                width: 100%;
+                margin-bottom: 8px;
+            }
+            .item-desc {
+                width: 100%;
+                padding: 0;
+                .desc-content {
+                    margin-bottom: 8px;
+                }
+                .highlight-desc-content {
+                    margin-bottom: 20px;
+                }
+            }
+            
+        }
+        .highlight {
+            height: auto;
+            img {
+                height: 680px;
+            }
+        }
+        .series-item:not(:last-child) {
+            margin-bottom: 32px;
+        }
+    }
+    .product-list {
+        padding: 32px 15px;
+        flex-direction: column;
+        justify-content: flex-start;
+        .product-item {
+            img {
+                width: 100%;
+                height: 350px;
+            }
+            .item-content {
+                margin-bottom: 4px;
+            }
+        }
+        .product-item:not(:last-child) {
+            margin-bottom: 32px;
+        }
+    }
+    .bottle-recycle {
+        padding: 40px 15px;
+        img {
+            height: 520px;
+            object-fit: cover;
+            margin-bottom: 8px;
+        }
+        .recycle-content {
+            .content-title {
+                line-height: 48px;
+            }
+            .content-desc {
+                margin-bottom: 8px;
+            }
+            .content-sub-desc {
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

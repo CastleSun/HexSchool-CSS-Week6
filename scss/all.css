@@ -1,0 +1,523 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.material-icons {
+  height: 20px;
+  width: 20px;
+}
+
+.grey-bg {
+  background-color: #E0E0E0;
+}
+
+.brown-bg {
+  background-color: #916000;
+}
+
+.flex-row-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brown-link {
+  color: #AC8A46;
+}
+
+.btn-brown {
+  background-color: #916000;
+  color: white;
+}
+
+.btn-outline-brown {
+  border: 1px solid #917000;
+  background-color: white;
+  color: #917000;
+}
+
+.header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png");
+  width: 128px;
+  height: 38px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.footer .footer-banner {
+  height: 600px;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer .footer-banner .subscribe {
+  padding-top: 312px;
+  width: 350px;
+}
+
+.footer .footer-banner .subscribe .banner-title {
+  font-size: 32px;
+  line-height: 48px;
+  color: #8D8D8D;
+  margin-bottom: 20px;
+}
+
+.footer .footer-banner .subscribe .input-group .form-control {
+  border: 2px solid #916000;
+}
+
+.footer .footer-banner .subscribe .input-group button {
+  background-color: #916000;
+  border-color: #916000;
+}
+
+.footer .footer-menu {
+  height: 80px;
+  color: white;
+}
+
+.footer .footer-menu .rights {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.footer .footer-menu .menu-list {
+  font-size: 20px;
+}
+
+.footer .footer-menu .menu-list .menu-item {
+  margin-left: 36px;
+}
+
+@media (max-width: 576px) {
+  .header .rwd-shopping-cart {
+    display: inline;
+    color: #8D8D8D;
+  }
+  .header .shopping-cart {
+    display: none;
+  }
+  .footer .subscribe {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer .footer-menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .footer-menu .menu-list {
+    display: none;
+  }
+}
+
+.banner {
+  height: 870px;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.banner .wrapper .banner-content {
+  width: 445px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: white;
+}
+
+.banner .wrapper .banner-content .banner-title {
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.banner .wrapper .banner-content .banner-desc {
+  line-height: 36px;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.banner .wrapper .banner-content button {
+  color: white;
+  border-color: white;
+  width: 360px;
+  border-radius: 30px;
+}
+
+.banner .wrapper .banner-content button:hover {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: white;
+  background-color: white;
+}
+
+.series-wall {
+  padding: 60px 0;
+}
+
+.series-wall .series-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 555px;
+}
+
+.series-wall .series-item .item-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.series-wall .series-item .item-desc .desc-title {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.series-wall .series-item .item-desc .desc-content {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.series-wall .series-item .item-desc .highlight-desc-title {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 4px;
+}
+
+.series-wall .series-item .item-desc .highlight-desc-content {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 52px;
+}
+
+.series-wall .series-item .item-desc button {
+  border-radius: 20px;
+}
+
+.series-wall .reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.series-wall .highlight {
+  height: 1080px;
+}
+
+.product-list {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-list .product-item img {
+  width: 350px;
+  height: 540px;
+  margin-bottom: 8px;
+}
+
+.product-list .product-item .item-title {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.product-list .product-item .item-content {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.product-list .product-item .item-price {
+  font-size: 16px;
+}
+
+.product-list .product-item .item-price .canceled-price {
+  text-decoration: line-through;
+  color: #8D8D8D;
+  margin-left: 8px;
+}
+
+.bottle-recycle {
+  padding: 60px 0;
+}
+
+.bottle-recycle img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottle-recycle .recycle-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottle-recycle .recycle-content .content-title {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.bottle-recycle .recycle-content .content-desc {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.bottle-recycle .recycle-content .content-sub-desc {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 576px) {
+  .series-wall {
+    padding: 40px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .series-wall .series-item {
+    height: auto;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .series-wall .series-item .item-pic {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .series-wall .series-item .item-desc {
+    width: 100%;
+    padding: 0;
+  }
+  .series-wall .series-item .item-desc .desc-content {
+    margin-bottom: 8px;
+  }
+  .series-wall .series-item .item-desc .highlight-desc-content {
+    margin-bottom: 20px;
+  }
+  .series-wall .highlight {
+    height: auto;
+  }
+  .series-wall .highlight img {
+    height: 680px;
+  }
+  .series-wall .series-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .product-list {
+    padding: 32px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .product-list .product-item img {
+    width: 100%;
+    height: 350px;
+  }
+  .product-list .product-item .item-content {
+    margin-bottom: 4px;
+  }
+  .product-list .product-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .bottle-recycle {
+    padding: 40px 15px;
+  }
+  .bottle-recycle img {
+    height: 520px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 8px;
+  }
+  .bottle-recycle .recycle-content .content-title {
+    line-height: 48px;
+  }
+  .bottle-recycle .recycle-content .content-desc {
+    margin-bottom: 8px;
+  }
+  .bottle-recycle .recycle-content .content-sub-desc {
+    margin-bottom: 8px;
+  }
+}
+
+.login-page .footer .footer-banner {
+  display: none;
+}
+
+.brand-wrapper {
+  height: 56px;
+  color: white;
+  background-color: #916000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.brand-wrapper .brand-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brand-wrapper .brand-item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.login-section {
+  padding: 80px 0;
+}
+
+.login-section .login-pic img {
+  width: 100%;
+}
+
+.login-section .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-section .login-form .title {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 12px;
+}
+
+.login-section .login-form .action-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-section .login-form .action-buttons button:not(:last-child) {
+  margin-right: 8px;
+}
+
+@media (max-width: 576px) {
+  .brand-wrapper {
+    display: none;
+  }
+  .login-section {
+    padding: 40px 0;
+  }
+}
+/*# sourceMappingURL=all.css.map */
